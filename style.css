@@ -144,16 +144,24 @@ body {
     font-size: 18px;
     color: #ECD6C4;
     margin-left: 165px;
+    padding-bottom: 48px;
 }
 .rodape {
+    display: flex;
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.rodape-imagem {
-  height: 48px;
-  display: block;
-  margin: 0 auto;
+.logos {
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  height: 5%;
+  width: 11%;
+  
 }
 
 
