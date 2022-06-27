@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0d1b2a 16.62%, #415a77 85.61%);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0%;
+}
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgba(240, 248, 255, 0);
+    margin:auto;
+    
+
+}
+
+header > .foto { 
+    width: 15%;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+header > .contatos{
+    width: 15%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 3%;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.contatos > .links{
+    color: white;
+}
+
+main{
+    padding-top: 3%;
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin:auto;
+    border-top: 0.4 solid white;
+    background-color: #fff2e700;
+    padding-bottom: 3%;
+}
+
+h1{
+    background-color: #ffffff00;
+    width: 50%;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFF2E7;
+    
+    
+    
+}
+.sobre{
+    padding-top:4%;
+    background-color: #415a7700;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+    
+}
+
+.data{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.separador{
+    background-color: white;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+}
+
+.botao{
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.box-botao {
+    width: 180px;
+    height: 60px;
+}
+.botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+  }
+  
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    size: 80px;
+}
+.logos{
+    margin:auto;
+    size: 80%;
+    width: 10%;
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
